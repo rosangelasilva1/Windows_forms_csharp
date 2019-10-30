@@ -1,0 +1,6 @@
+C:\cursos\WindowsFormsCSharp\ERP\Database\bin\Debug\Database.dll
+C:\cursos\WindowsFormsCSharp\ERP\Database\bin\Debug\Database.pdb
+C:\cursos\WindowsFormsCSharp\ERP\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\cursos\WindowsFormsCSharp\ERP\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\cursos\WindowsFormsCSharp\ERP\Database\obj\Debug\Database.dll
+C:\cursos\WindowsFormsCSharp\ERP\Database\obj\Debug\Database.pdb

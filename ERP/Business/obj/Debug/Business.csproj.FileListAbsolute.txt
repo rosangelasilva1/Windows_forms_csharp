@@ -1,0 +1,9 @@
+C:\cursos\WindowsFormsCSharp\ERP\Business\bin\Debug\Business.dll
+C:\cursos\WindowsFormsCSharp\ERP\Business\bin\Debug\Business.pdb
+C:\cursos\WindowsFormsCSharp\ERP\Business\bin\Debug\Database.dll
+C:\cursos\WindowsFormsCSharp\ERP\Business\bin\Debug\Database.pdb
+C:\cursos\WindowsFormsCSharp\ERP\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\cursos\WindowsFormsCSharp\ERP\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\cursos\WindowsFormsCSharp\ERP\Business\obj\Debug\Business.csproj.CopyComplete
+C:\cursos\WindowsFormsCSharp\ERP\Business\obj\Debug\Business.dll
+C:\cursos\WindowsFormsCSharp\ERP\Business\obj\Debug\Business.pdb
