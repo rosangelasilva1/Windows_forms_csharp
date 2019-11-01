@@ -11,18 +11,19 @@ using System.Windows.Forms;
 
 namespace ERP
 {
-    public partial class frmPessoa : Form
+    public partial class frmCliente : Form
     {
-        public frmPessoa()
+        public frmCliente()
         {
             InitializeComponent();
         }
+        
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click_1(object sender, EventArgs e)
         {
             // var Pessoa = new Pessoa();
             // new frmPessoa() { Nome=txtNome.Text,lblCPF=mskCPF.Text,lblTelefone=mskTelefone.text,txtEmail.Text}.sa
-    
+
             Pessoa p = new Pessoa();
             p.Nome = txtNome.Text;
             p.CPF = mskCPF.Text;
@@ -30,23 +31,19 @@ namespace ERP
             p.Telefone = mskTelefone.Text;
             p.Salvar();
 
-            MessageBox.Show ("Pessoa cadastrada com sucesso nº " + p.Id.ToString());
+            MessageBox.Show("Pessoa cadastrada com sucesso nº " + p.Id.ToString());
 
         }
 
-        private void frmPessoa_Load(object sender, EventArgs e)
-        {
-            btnSalvar.Visible = true;
-
-        }
-
-        private void txtEmail_TextChanged(object sender, EventArgs e)
+        private void tbpListar_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void txtNome_TextChanged(object sender, EventArgs e)
+        private void frmCliente_Load(object sender, EventArgs e)
         {
+            //Método Estático
+            dtgListarPessoas.DataSource = Pessoa.Listar();
 
         }
     }

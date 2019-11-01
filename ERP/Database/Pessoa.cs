@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+
 
 namespace Database
 {
@@ -39,5 +40,35 @@ namespace Database
             return (int)id;
         }
 
+
+        public  DataTable Listar()
+        {
+            DataTable table = new DataTable();
+
+            var connString = ConfigurationManager.ConnectionStrings["conexao"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                string sql = "Select * FROM Pessoas ";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+
+                try
+                {
+                    conn.Open();
+                    using (SqlDataAdapter a = new SqlDataAdapter(cmd))
+                    {
+                        a.Fill(table);
+                    }
+
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+
+            }
+
+            return table;
+        }
     }
 }

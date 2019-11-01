@@ -2,7 +2,6 @@ C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\ERP.exe.config
 C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\ERP.exe
 C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\ERP.pdb
 C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\UI.csprojAssemblyReference.cache
-C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\ERP.frmPessoa.resources
 C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\ERP.Properties.Resources.resources
 C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\UI.csproj.GenerateResource.cache
 C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\UI.csproj.CoreCompileInputs.cache
@@ -13,3 +12,4 @@ C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\Database.dll
 C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\Business.pdb
 C:\cursos\WindowsFormsCSharp\ERP\ERP\bin\Debug\Database.pdb
 C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\UI.csproj.CopyComplete
+C:\cursos\WindowsFormsCSharp\ERP\ERP\obj\Debug\ERP.frmCliente.resources
